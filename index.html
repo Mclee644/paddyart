@@ -16,17 +16,18 @@
 				<img src="./assets/logo.jpg" class="areaLogo"/>
 				<div class="login-box">
 					<h1>LOGIN</h1>
-					<div class="textbox">
-						<label for="text"><i class="fas fa-user" aria-hidden="true">   Username</i></label>
-						<input type="text" placeholder="username" maxlength="20" required name=""class="typeIn" id="text" value="">
-					</div>
-					<div class="textbox">
-						<label for="password"><i class="fa fa-lock" aria-hidden="true">   Password</i></label>
-						<input type="password" placeholder="password" class="typeIn" maxlength="20" required id="password" value="">
-					</div>
-					<a href="#">
-					<input class="btn" type="submit" name="" value="sign in">
-					</a>
+					<form method="get" action="./php/index.php">
+						<div class="textbox">
+							<label for="text"><i class="fas fa-user" aria-hidden="true">   Username</i></label>
+							<input type="text" placeholder="username" maxlength="20" required name=""class="typeIn" id="text" value="">
+						</div>
+						<div class="textbox">
+							<label for="password"><i class="fa fa-lock" aria-hidden="true">   Password</i></label>
+							<input type="password" placeholder="password" class="typeIn" maxlength="20" required id="password" value="">
+						</div>
+						
+						<input class="btn" type="submit" name="" value="Sign in">
+					</form>
 				</div>
 			</div>	
         </body>
