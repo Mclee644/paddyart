@@ -1,0 +1,133 @@
+/*@import "http: //maxcnd.bootstrapcnd.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*/
+
+*{
+	box-sizing:border-box;
+}
+body{
+    margin:0;position:relative;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../assets/paddy.jpg);
+	background-size:cover;
+	background-position:center;
+    display: flex;align-items: center;justify-content: center;width: 100%;min-height: 100vh;
+	z-index:1;
+}
+body::before{
+	content:'';
+	position:absolute;
+	background-color:black;
+	width:100%;
+	height:100%;
+	opacity:0.3;
+	z-index:-1;
+}
+a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+header{
+	height:80px;
+	position:fixed;
+	top:0;
+	right:0;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.9);
+	padding:2rem;
+	font-size:2rem;
+
+}
+.logoT{
+	display:inline-block;
+	padding:2rem;
+	font-size:40px;
+}
+.login-box{
+    width: 300px;
+	min-height:300px;
+    display:flex;
+	flex-direction:column;
+    text-align: center;
+    color: white;
+}
+.login-box h1{
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 3px solid;
+}
+input.typeIn{
+	width:100%;
+	padding:10px 0;
+	border-radius:20px;
+	text-align:center;
+	font-size:1.2rem;
+	outline:none;
+	color:#fff;
+	border:none;
+	background-color:transparent;
+	border:0.4px solid #999999;
+}
+input.typeIn:hover{
+	border:1px solid #ffffff;
+	
+}
+
+
+.container{
+	width:600px;
+	height:630px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	box-shadow:3px 3px 9px rgba(0,0,0,0.6);
+	
+}
+label{
+	display:block;
+	text-align:left;
+	margin:6px 0;
+	margin-left:1rem;
+	padding:0 3px;
+}
+lable i{
+	font-size:2rem;
+}
+img{
+	margin:20px 0;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	box-shadow:2px 3px 10px rgba(255,255,255,0.9);
+}
+img.tlLogo{
+	width:50px;
+	height:50px;
+	margin:none;
+}
+.btn{
+	margin-top:20px;
+	width:100%;
+	height:50px;
+	color:#ffffff;
+	font-size:1.5rem;
+	background-color:transparent;
+	border:none;
+	border:1px solid #ffffff;
+	transition:1s linear;
+	transition-property:color background-color;
+	cursor:pointer;
+	box-shadow:2px 3px 5px rgba(255,255,255,0.9);
+
+}
+.btn:hover{
+	background-color:#ffffff;
+	color:#000000;
+	box-shadow:2px 3px 5px rgba(0,0,0,0.9);
+
+}
